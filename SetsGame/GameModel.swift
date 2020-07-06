@@ -22,7 +22,14 @@ struct SetGame<CardContent: Equatable> {
         
         var cardVariations = Array<Dictionary<String, Any>>()
         
+        //The code below takes an array of variations and makes all the combinations
+        // For example: [[1,2,3], [a,b,c]] -> [1a, 1b, 1c, 2a, 2b, 2c, 3a, 3b, 3c]
+        // #TODO this cose is really inefficient -- app start time is really slow, how could it have been done better?
+        // It's also not very easy to follow!
+        
         for variation in allVariations{
+            
+            // The first variation doesn't require any combinations
             if cardVariations.isEmpty {
                 for attribute in variation.allAttributes {
                     cardVariations.append([variation.name: attribute])

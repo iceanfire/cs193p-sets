@@ -107,12 +107,12 @@ class SetsGameViewModel: ObservableObject {
                     if card != firstElem && card.content.symbol == firstElem.content.symbol {
                         return false
                     }
-//                    if card != firstElem && card.content.shading == firstElem.content.shading {
-//                        return false
-//                    }
-//                    if card != firstElem && card.content.numberOfSymbols == firstElem.content.numberOfSymbols {
-//                        return false
-//                    }
+                    if card != firstElem && card.content.shading == firstElem.content.shading {
+                        return false
+                    }
+                    if card != firstElem && card.content.numberOfSymbols == firstElem.content.numberOfSymbols {
+                        return false
+                    }
                 }
             }
             return true
