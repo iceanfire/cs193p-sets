@@ -26,6 +26,7 @@ struct SetGame<CardContent: Equatable> {
         // For example: [[1,2,3], [a,b,c]] -> [1a, 1b, 1c, 2a, 2b, 2c, 3a, 3b, 3c]
         // #TODO this cose is really inefficient -- app start time is really slow, how could it have been done better?
         // It's also not very easy to follow!
+        // TODO: There was an easier way to achieve this outcome, but I did it this way to maintain the MVVM paradigm -- good idea?
         
         for variation in allVariations{
             
