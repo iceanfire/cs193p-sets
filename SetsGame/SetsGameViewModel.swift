@@ -98,6 +98,8 @@ class SetsGameViewModel: ObservableObject {
     }
     
     func chooseCard(card: SetGame<CardContents>.Card) {
+        //Note: To make the game easier, you can comment out some of the rules below!
+        
         game.chooseCard(card: card) { (matchedCards) -> Bool in
             if let firstElem = matchedCards.first {
                 for card in matchedCards {
