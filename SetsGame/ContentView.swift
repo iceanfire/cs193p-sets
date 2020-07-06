@@ -105,3 +105,5 @@ struct ContentView_Previews: PreviewProvider {
         return ContentView(game: game)
     }
 }
+
+//#TODO: This looks a bit bad in dark mode
