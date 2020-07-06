@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275B36C424AD40C1000BD0D4 /* gridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B36C324AD40C1000BD0D4 /* gridLayout.swift */; };
+		275B36C624AD411E000BD0D4 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B36C524AD411E000BD0D4 /* Grid.swift */; };
+		275B36C824AD487E000BD0D4 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B36C724AD487E000BD0D4 /* Array+Identifiable.swift */; };
 		27EC0CDB2496A479009067E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0CDA2496A479009067E0 /* AppDelegate.swift */; };
 		27EC0CDD2496A479009067E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0CDC2496A479009067E0 /* SceneDelegate.swift */; };
 		27EC0CDF2496A479009067E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0CDE2496A479009067E0 /* ContentView.swift */; };
@@ -15,6 +18,9 @@
 		27EC0CE72496A47D009067E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EC0CE52496A47D009067E0 /* LaunchScreen.storyboard */; };
 		27EC0CF22496A47D009067E0 /* SetsGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0CF12496A47D009067E0 /* SetsGameTests.swift */; };
 		27EC0CFD2496A47D009067E0 /* SetsGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0CFC2496A47D009067E0 /* SetsGameUITests.swift */; };
+		27EC0D0B2496A4A5009067E0 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0D0A2496A4A5009067E0 /* GameModel.swift */; };
+		27EC0D0D2496FD80009067E0 /* SetsGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0D0C2496FD80009067E0 /* SetsGameViewModel.swift */; };
+		27EC0D0F249700ED009067E0 /* CardShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC0D0E249700ED009067E0 /* CardShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		275B36C324AD40C1000BD0D4 /* gridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridLayout.swift; sourceTree = "<group>"; };
+		275B36C524AD411E000BD0D4 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		275B36C724AD487E000BD0D4 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		27EC0CD72496A479009067E0 /* SetsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EC0CDA2496A479009067E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27EC0CDC2496A479009067E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		27EC0CF82496A47D009067E0 /* SetsGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetsGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EC0CFC2496A47D009067E0 /* SetsGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsGameUITests.swift; sourceTree = "<group>"; };
 		27EC0CFE2496A47D009067E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EC0D0A2496A4A5009067E0 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		27EC0D0C2496FD80009067E0 /* SetsGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsGameViewModel.swift; sourceTree = "<group>"; };
+		27EC0D0E249700ED009067E0 /* CardShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +114,16 @@
 				27EC0CDA2496A479009067E0 /* AppDelegate.swift */,
 				27EC0CDC2496A479009067E0 /* SceneDelegate.swift */,
 				27EC0CDE2496A479009067E0 /* ContentView.swift */,
+				275B36C324AD40C1000BD0D4 /* gridLayout.swift */,
+				275B36C524AD411E000BD0D4 /* Grid.swift */,
+				275B36C724AD487E000BD0D4 /* Array+Identifiable.swift */,
 				27EC0CE02496A47D009067E0 /* Assets.xcassets */,
 				27EC0CE52496A47D009067E0 /* LaunchScreen.storyboard */,
 				27EC0CE82496A47D009067E0 /* Info.plist */,
 				27EC0CE22496A47D009067E0 /* Preview Content */,
+				27EC0D0A2496A4A5009067E0 /* GameModel.swift */,
+				27EC0D0C2496FD80009067E0 /* SetsGameViewModel.swift */,
+				27EC0D0E249700ED009067E0 /* CardShapes.swift */,
 			);
 			path = SetsGame;
 			sourceTree = "<group>";
@@ -268,6 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				27EC0CDB2496A479009067E0 /* AppDelegate.swift in Sources */,
+				27EC0D0B2496A4A5009067E0 /* GameModel.swift in Sources */,
+				275B36C424AD40C1000BD0D4 /* gridLayout.swift in Sources */,
+				275B36C624AD411E000BD0D4 /* Grid.swift in Sources */,
+				27EC0D0D2496FD80009067E0 /* SetsGameViewModel.swift in Sources */,
+				275B36C824AD487E000BD0D4 /* Array+Identifiable.swift in Sources */,
+				27EC0D0F249700ED009067E0 /* CardShapes.swift in Sources */,
 				27EC0CDD2496A479009067E0 /* SceneDelegate.swift in Sources */,
 				27EC0CDF2496A479009067E0 /* ContentView.swift in Sources */,
 			);
@@ -436,8 +460,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SetsGame/Preview Content\"";
+				DEVELOPMENT_TEAM = A65468K86P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SetsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +481,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SetsGame/Preview Content\"";
+				DEVELOPMENT_TEAM = A65468K86P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SetsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
